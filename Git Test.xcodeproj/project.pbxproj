@@ -21,6 +21,7 @@
 		FFA1671B1956658900A2DA05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA166FD1956658900A2DA05 /* UIKit.framework */; };
 		FFA167231956658900A2DA05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFA167211956658900A2DA05 /* InfoPlist.strings */; };
 		FFA167251956658900A2DA05 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA167241956658900A2DA05 /* Git_TestTests.m */; };
+		FFA16730195669EE00A2DA05 /* JMMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA1672F195669EE00A2DA05 /* JMMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FFA167201956658900A2DA05 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FFA167221956658900A2DA05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFA167241956658900A2DA05 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FFA1672E195669EE00A2DA05 /* JMMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMTest.h; sourceTree = "<group>"; };
+		FFA1672F195669EE00A2DA05 /* JMMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		FFA166ED1956658900A2DA05 = {
 			isa = PBXGroup;
 			children = (
+				FFA1672E195669EE00A2DA05 /* JMMTest.h */,
+				FFA1672F195669EE00A2DA05 /* JMMTest.m */,
 				FFA166FF1956658900A2DA05 /* Git Test */,
 				FFA1671E1956658900A2DA05 /* Git TestTests */,
 				FFA166F81956658900A2DA05 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA16730195669EE00A2DA05 /* JMMTest.m in Sources */,
 				FFA167061956658900A2DA05 /* main.m in Sources */,
 				FFA1670A1956658900A2DA05 /* JMMAppDelegate.m in Sources */,
 				FFA167101956658900A2DA05 /* JMMViewController.m in Sources */,
